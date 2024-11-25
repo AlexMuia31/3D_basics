@@ -7,9 +7,8 @@ function App() {
   return (
    <Canvas camera={{position:[3,3,3]}}>
       <mesh>
-        <boxGeometry args={[5,1,2]} /> 
-        <sphereGeometry args={[2, 32, 32]} />
-        <meshNormalMaterial />
+        <boxGeometry args={[5,1,0.2]} /> 
+        <meshBasicMaterial color={0x00ff00}/>
       </mesh>
    </Canvas>
   )
